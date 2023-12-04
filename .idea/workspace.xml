@@ -24,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/images/24.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/25.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/27.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/3.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/4.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/5.png" afterDir="false" />
@@ -32,7 +33,6 @@
       <change afterPath="$PROJECT_DIR$/images/8.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/9.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/MaintenanceStuffs/MaintenanceStuffs.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Manager/ManagerTenantControl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Manager/TenantModal.js" afterDir="false" />
@@ -118,7 +118,7 @@
       <workItem from="1700755440802" duration="1067000" />
       <workItem from="1701475301376" duration="276000" />
       <workItem from="1701475673937" duration="6572000" />
-      <workItem from="1701557734663" duration="47778000" />
+      <workItem from="1701557734663" duration="48157000" />
     </task>
     <servers />
   </component>
