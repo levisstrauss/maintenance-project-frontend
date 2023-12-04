@@ -2,6 +2,8 @@ The backend Code is at the URL:
 
 https://github.com/levisstrauss/maintenance-project-backend/tree/main
 
+Important: View in a new tab while clicking the project link
+
 
 ---------------- Maintenance Request Application ----------------
 
