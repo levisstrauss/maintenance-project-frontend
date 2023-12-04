@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.date-range {
+    @apply flex flex-col;
+}
+
+.date-range input {
+    @apply px-4 py-2 border rounded-md text-sm;
+}
+
+
+.image-normal {
+    transition: transform 0.3s ease;
+}
+
+.image-hover {
+    transform: scale(3); /* Adjust scale factor as needed */
+    z-index: 10;
+    position: absolute;
+}
+
+
