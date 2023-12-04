@@ -13,7 +13,7 @@
 
         -- A manager must be able to add a new tenant, move a tenant to another 
            apartment, and delete a tenant. A tenant account consists of the 
-           following informa�on: tenant ID, name, phone number, email,
+           following information: tenant ID, name, phone number, email,
            date of check-in, date of check-out, and an apartment number. 
 
         -----Tenant:------
@@ -21,7 +21,7 @@
         -- A tenant must be able to submit a maintenance request, view the status 
            of a maintenance request. A maintenance request consists of the following
            information: request ID, tenant ID, apartment number, 
-           date of request, descrip�on of the problem, and status of the request.
+           date of request, description of the problem, and status of the request.
 
         ---- Maintenance Staff:----
 
@@ -29,7 +29,7 @@
            variety of filters: by apartment number, by area (like kitchen),, and 
            view the status of a maintenance request. A staff member must be able 
            to update the status of a selected request, from ‘pending’ to ‘completed’,
-           but cannot edit any other informa�on.
+           but cannot edit any other information.
 
 --------------- Functionality ------------------------
 
