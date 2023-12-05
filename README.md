@@ -75,12 +75,12 @@ Important: View in a new tab while clicking the project link
     delete: the button delete when clicked will delete the tenant from the database.
 
 
------------------------ Tenant sending request--------------------
+-------------- Tenant sending request--------------------
 
     Moving to the tenant dashboard
     Since the tenant is not registered yet with a login system, to make the check happen
     we want to make sure that only a tenant created by the Manager can send a request 
-    and the tenant ID and the apartment number have to match with the one the Manager
+    and the tenant ID and the apartment number have to match the one the Manager
     created.
     
     Since the tenant has not yet submitted any request, the dashboard is empty
@@ -91,7 +91,7 @@ Important: View in a new tab while clicking the project link
 
     Since we don't have any tenant with ID 78888 and apartment number 8566, the request
     is not sent and the error message is displayed.
-![Tenant dashboard](images/11.png)
+![Tenant dashboard](images/9.png)
 
     If we remember, the Manager had already created a tenant with the ID 25455 and apartment
     number 205. That means if we send a request with the same ID and apartment number,
@@ -102,7 +102,7 @@ Important: View in a new tab while clicking the project link
     status of pending.
 ![Tenant dashboard](images/11.png)
 
------------------------ Maintenance Stuff --------------------
+--------------- Maintenance Stuff --------------------
 
     This is automatically sent to the Maintenance Stuff dashboard
     let's go to the maintenance staff dashboard.
@@ -134,7 +134,7 @@ Important: View in a new tab while clicking the project link
     the status of the request. The background is also changed from red to green, and 
     the status is changed from pending to completed as well.
 
------------------ Images ----------------------------
+----------------- Images ----------------------
 
     For the image, we have a default image that is displayed when the tenant did
     not upload any image otherwise, it will display the image uploaded by the tenant.
@@ -142,7 +142,7 @@ Important: View in a new tab while clicking the project link
 -------------------- Now, let's add a bunch of tenants ----------------
 ![Tenant dashboard](images/18.png)
 
-------- Let's send a bunch of requests by each of the tenants  ----------------
+------- Let's send a bunch of requests by each of the tenants  -----------
 
     Some with the default image and some with the image uploaded by the tenant.
 ![Tenant dashboard](images/19.png)
@@ -151,9 +151,9 @@ Important: View in a new tab while clicking the project link
 ![Tenant dashboard](images/20.png)
 
     Let's see the result in the tenant dashboard
-![Tenant dashboard](images/20.png)
+![Tenant dashboard](images/21.png)
 
----------- Maintenance staff search result -------------------------
+---------- Maintenance staff search result -------------------
 
     -- By apartment number:
 ![Tenant dashboard](images/22.png)
