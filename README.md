@@ -8,9 +8,12 @@ Important: View in a new tab while clicking the project link
 ---------------- Maintenance Request Application ----------------
 
     - The application is a simple maintenance request application that 
-       allows users to create, read, update, and delete maintenance requests.
-       The application is built using ReactJS in the frontend for the UI, 
-       spring-boot in the backend for the API and h2 database to persist all the data.
+       allows users to create, and read maintenance requests as tenants,
+       add a new tenant as manager and change the status of the request after 
+       performing the task as a maintenance staff member.
+       The application is built using ReactJS in the front end for the UI, 
+       spring-boot in the backend for the API, and h2 database to persist all the data.
+       and Firebase Firestore to store all the images uploaded by the tenant.
     - All the images are stored in Firebase storage and the URL is stored 
         in the database.
 
@@ -102,18 +105,18 @@ Important: View in a new tab while clicking the project link
     status of pending.
 ![Tenant dashboard](images/11.png)
 
---------------- Maintenance Stuff --------------------
+--------------- Maintenance Staff --------------------
 
-    This is automatically sent to the Maintenance Stuff dashboard
+    This is automatically sent to the Maintenance Staff dashboard
     let's go to the maintenance staff dashboard.
 
 ![Tenant dashboard](images/12.png)
 
-    As tenants and maintenance staff, if they don't see the image really well, they 
-    hover over the image to scale it up and see it clearly.
+    As tenants and maintenance staff, if they don't see the image well, they 
+    hover over the image to scale it up and see it.
 ![Tenant dashboard](images/13.png)
 
-    Every new request sent to Maintenance Stuff is displayed in the dashboard with a default 
+    Every new request sent to Maintenance Staff is displayed in the dashboard with a default 
     status of pending. They have the possibility to change the status of the request from 
     pending to completed.
 ![Tenant dashboard](images/15.png)
@@ -147,7 +150,7 @@ Important: View in a new tab while clicking the project link
     Some with the default image and some with the image uploaded by the tenant.
 ![Tenant dashboard](images/19.png)
 
-    Let's go and complete some of the first two as Maintenance Stuff
+    Let's go and complete some of the first two as Maintenance Staff
 ![Tenant dashboard](images/20.png)
 
     Let's see the result in the tenant dashboard
